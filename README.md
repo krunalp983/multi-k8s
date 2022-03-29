@@ -1,4 +1,6 @@
-# multi-k8s
+# Kubernetes
+In this project I deployed multi container docker app using google cloud Kubernetes engine. Implemented CI/CD using Gitlab and make sure that our app will remain up to date.The aim of this project is to understand how Kubernetes cluster work and how it will first use for development server and how can we deploy our web application to outside world.
+
 
 
 

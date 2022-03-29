@@ -48,5 +48,5 @@ deploy:
   script: 
     - bash deploy.sh
   only:
-  - main
+    - main
 

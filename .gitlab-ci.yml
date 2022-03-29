@@ -36,12 +36,12 @@ build:
     - gcloud container clusters get-credentials multi-cluster
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 # check file exexute sueccsfuly alomg with this we discribe the directory
-    - docker build -t stephengrider/react-test -f ./client/Dockerfile.dev ./client
+    - docker build -t patekrun/react-test -f ./client/Dockerfile.dev ./client
 # script for testing project 
 test:
   stage: test
   script:
-    - docker run -e CI=true stephengrider/react-test npm test
+    - docker run -e CI=true patekrun/react-test npm test
 # below is script which we describe in will cretate images and push it to docker hub we told travis just ru this file for deployment which we store in deploy.sh
 deploy:
   stage: deploy

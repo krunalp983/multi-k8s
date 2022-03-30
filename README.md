@@ -15,9 +15,10 @@ git push -uf origin main
 ```
 
 ## Tools and Technologies
--Google cloud Servies
--Gitlab
--Docker
--Kubernetes Cluster
--Nginx
-
+```
+Google cloud Servies
+Gitlab
+Docker
+Kubernetes Cluster
+Nginx
+```

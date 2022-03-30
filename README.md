@@ -15,8 +15,9 @@ git push -uf origin main
 ```
 
 ## Tools and Technologies
-Google cloud Servies,
-Gitlab,
-Docker,
-Kubernetes Cluster.
+-Google cloud Servies
+-Gitlab
+-Docker
+-Kubernetes Cluster
+-Nginx
 
